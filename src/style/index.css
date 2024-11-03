@@ -1,0 +1,310 @@
+@font-face {
+    font-family: 'Lexend';
+    src: url('../../assets/fonts/Lexend_standard/lexend_regular.woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* CSS Général */
+body {
+    margin: 0;
+    font-family: 'Lexend';
+}
+
+
+.header-container {
+    background-color: #2F2A85;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-wrapper {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-link {
+    color: #ECECF9;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 500;
+}
+
+.header-redirection {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    width: 64px;
+    height: auto;
+}
+
+
+.footer-container {
+    background-color: #2F2A85;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ECECF9;
+}
+
+.footer-wrapper {
+    width: 80%;
+    display: flex;
+    font-weight: bold;
+    gap: 16px;
+    font-size: 18px;
+}
+
+.w-35 {
+    width: 35%;
+}
+
+.w-65 {
+    width: 65%;
+}
+
+.footer-link {
+    color: #ECECF9;
+    font-weight: 300;
+}
+
+.footer-copyright {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+/* CSS Contenu principal */
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-wrapper {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.main-title {
+    margin-bottom: 0;
+    font-size: 64px;
+    font-weight: normal;
+    line-height: 80px;
+    width: 65%;
+    color: #1B184E;
+}
+
+.main-text {
+    margin: 0;
+    width: 70%;
+    color: #1B184E;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.text-link {
+    color: #1B184E;
+}
+
+.pictures {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.pictures img {
+    width: 384px;
+    height: 218px;
+    border-radius: 5px;
+}
+
+.bordered-picture {
+    width: 300px !important;
+    height: 146px !important;
+    border-radius: 5px;
+    border: 8px solid #153E5D;
+    padding: 28px 34px;
+}
+
+.pictures span {
+    color: #1B184E;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.slogan {
+    color: #1B184E;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: bold;
+    text-align: center;
+    width: 30%;
+    align-self: center;
+}
+
+.btn {
+    padding: 16px;
+    border: solid 3px #2F2A85;
+    border-radius: 5px;
+    color: #2F2A85;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: center;
+    background-color: #ECECF9;
+    cursor: pointer;
+}
+
+.btn-next-page {
+    width: 20%;
+    margin-bottom: 64px;
+    align-self: center;
+    color: transparent;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 412px) and (max-width: 450px) and (min-height: 917px) and (max-height: 950px) {
+
+    /* CSS Général */
+
+    .header-container {
+        padding: 16px;
+    }
+
+    .header-wrapper {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .header-logo {
+        width: 58px;
+    }
+
+    .header-redirection {
+        display: flex;
+        flex-grow: 1;
+        justify-content: space-evenly;
+    }
+
+    .footer-wrapper {
+        width: 100%;
+        gap: 16px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .footer-wrapper ul {
+        padding-left: 20px;
+    }
+
+    .w-35 {
+        width: 35%;
+    }
+
+    .w-65 {
+        width: 65%;
+    }
+
+    .footer-link {
+        color: #ECECF9;
+        font-weight: 300;
+    }
+
+    .footer-copyright {
+        font-weight: 300;
+        font-size: 14px;
+    }
+
+    /* CSS Contenu principal */
+    .main-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-wrapper {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .main-title {
+        font-size: 48px;
+        line-height: 60px;
+        width: 100%;
+    }
+
+    .main-text {
+        width: 100%;
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .pictures {
+        flex-direction: column;
+        gap: 32px;
+        align-items: center;
+    }
+
+    .pictures img {
+        width: 284px;
+        height: 160px;
+    }
+
+    .bordered-picture {
+        width: 200px !important;
+        height: 88px !important;
+    }
+
+    .pictures span {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .slogan {
+        font-size: 26px;
+        line-height: 32px;
+        width: 100%;
+    }
+
+    .btn {
+        padding: 16px;
+        border: solid 3px #2F2A85;
+        border-radius: 5px;
+        color: #2F2A85;
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 30px;
+        text-align: center;
+        background-color: #ECECF9;
+        cursor: pointer;
+    }
+
+    .btn-next-page {
+        width: 100%;
+        margin-bottom: 32px;
+    }
+}
